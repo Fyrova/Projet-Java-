@@ -1,0 +1,107 @@
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+AbortError: The user aborted a request.
+    at abort [90m(C:\Users\Administrateur\Desktop\Projet java\edbm-meeting-room-management-frontend\[39mnode_modules\[4mnext[24m\dist\compiled\node-fetch\index.js:1:65190[90m)[39m
+    at EventTarget.abortAndFinalize [90m(C:\Users\Administrateur\Desktop\Projet java\edbm-meeting-room-management-frontend\[39mnode_modules\[4mnext[24m\dist\compiled\node-fetch\index.js:1:65410[90m)[39m
+[90m    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:831:20)[39m
+[90m    at EventTarget.dispatchEvent (node:internal/event_target:766:26)[39m
+[90m    at abortSignal (node:internal/abort_controller:370:10)[39m
+[90m    at AbortController.abort (node:internal/abort_controller:392:5)[39m
+    at Timeout.<anonymous> [90m(C:\Users\Administrateur\Desktop\Projet java\edbm-meeting-room-management-frontend\[39mnode_modules\[4mnext[24m\dist\compiled\@next\font\dist\google\fetch-css-from-google-fonts.js:35:55[90m)[39m
+[90m    at listOnTimeout (node:internal/timers:581:17)[39m
+[90m    at process.processTimers (node:internal/timers:519:7)[39m {
+  type: [32m'aborted'[39m
+}
+- [31merror[39m Failed to download `Montserrat` from Google Fonts. Using fallback font instead.
+Failed to proxy http://localhost:8081/api/reservations AggregateError [ECONNREFUSED]: 
+[90m    at internalConnectMultiple (node:net:1122:18)[39m
+[90m    at afterConnectMultiple (node:net:1689:7)[39m {
+  code: [32m'ECONNREFUSED'[39m,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:8081
+    [90m    at createConnectionError (node:net:1652:14)[39m
+    [90m    at afterConnectMultiple (node:net:1682:16)[39m {
+      errno: [33m-4078[39m,
+      code: [32m'ECONNREFUSED'[39m,
+      syscall: [32m'connect'[39m,
+      address: [32m'::1'[39m,
+      port: [33m8081[39m
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:8081
+    [90m    at createConnectionError (node:net:1652:14)[39m
+    [90m    at afterConnectMultiple (node:net:1682:16)[39m {
+      errno: [33m-4078[39m,
+      code: [32m'ECONNREFUSED'[39m,
+      syscall: [32m'connect'[39m,
+      address: [32m'127.0.0.1'[39m,
+      port: [33m8081[39m
+    }
+  ]
+}
+- [31merror[39m AggregateError [ECONNREFUSED]: 
+[90m    at internalConnectMultiple (node:net:1122:18)[39m
+[90m    at afterConnectMultiple (node:net:1689:7)[39m {
+  code: [32m'ECONNREFUSED'[39m,
+  [errors]: [
+    Error: connect ECONNREFUSED ::1:8081
+    [90m    at createConnectionError (node:net:1652:14)[39m
+    [90m    at afterConnectMultiple (node:net:1682:16)[39m {
+      errno: [33m-4078[39m,
+      code: [32m'ECONNREFUSED'[39m,
+      syscall: [32m'connect'[39m,
+      address: [32m'::1'[39m,
+      port: [33m8081[39m
+    },
+    Error: connect ECONNREFUSED 127.0.0.1:8081
+    [90m    at createConnectionError (node:net:1652:14)[39m
+    [90m    at afterConnectMultiple (node:net:1682:16)[39m {
+      errno: [33m-4078[39m,
+      code: [32m'ECONNREFUSED'[39m,
+      syscall: [32m'connect'[39m,
+      address: [32m'127.0.0.1'[39m,
+      port: [33m8081[39m
+    }
+  ]
+}
+FetchError: request to https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap failed, reason: getaddrinfo ENOTFOUND fonts.googleapis.com
+    at ClientRequest.<anonymous> [90m(C:\Users\Administrateur\Desktop\Projet java\edbm-meeting-room-management-frontend\[39mnode_modules\[4mnext[24m\dist\compiled\node-fetch\index.js:1:65756[90m)[39m
+[90m    at ClientRequest.emit (node:events:524:28)[39m
+[90m    at emitErrorEvent (node:_http_client:101:11)[39m
+[90m    at TLSSocket.socketErrorListener (node:_http_client:504:5)[39m
+[90m    at TLSSocket.emit (node:events:524:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:169:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:128:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  type: [32m'system'[39m,
+  errno: [32m'ENOTFOUND'[39m,
+  code: [32m'ENOTFOUND'[39m
+}
+FetchError: request to https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap failed, reason: getaddrinfo ENOTFOUND fonts.googleapis.com
+    at ClientRequest.<anonymous> [90m(C:\Users\Administrateur\Desktop\Projet java\edbm-meeting-room-management-frontend\[39mnode_modules\[4mnext[24m\dist\compiled\node-fetch\index.js:1:65756[90m)[39m
+[90m    at ClientRequest.emit (node:events:524:28)[39m
+[90m    at emitErrorEvent (node:_http_client:101:11)[39m
+[90m    at TLSSocket.socketErrorListener (node:_http_client:504:5)[39m
+[90m    at TLSSocket.emit (node:events:524:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:169:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:128:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  type: [32m'system'[39m,
+  errno: [32m'ENOTFOUND'[39m,
+  code: [32m'ENOTFOUND'[39m
+}
+FetchError: request to https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap failed, reason: getaddrinfo ENOTFOUND fonts.googleapis.com
+    at ClientRequest.<anonymous> [90m(C:\Users\Administrateur\Desktop\Projet java\edbm-meeting-room-management-frontend\[39mnode_modules\[4mnext[24m\dist\compiled\node-fetch\index.js:1:65756[90m)[39m
+[90m    at ClientRequest.emit (node:events:524:28)[39m
+[90m    at emitErrorEvent (node:_http_client:101:11)[39m
+[90m    at TLSSocket.socketErrorListener (node:_http_client:504:5)[39m
+[90m    at TLSSocket.emit (node:events:524:28)[39m
+[90m    at emitErrorNT (node:internal/streams/destroy:169:8)[39m
+[90m    at emitErrorCloseNT (node:internal/streams/destroy:128:3)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)[39m {
+  type: [32m'system'[39m,
+  errno: [32m'ENOTFOUND'[39m,
+  code: [32m'ENOTFOUND'[39m
+}
+- [31merror[39m Failed to download `Inter` from Google Fonts. Using fallback font instead.
+- [31merror[39m Failed to download `Montserrat` from Google Fonts. Using fallback font instead.
